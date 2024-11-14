@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Art Selector</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/ai-art-selector.js" defer></script>
+</head>
+<body>
+    <header><h1>AI Art Selector</h1></header>
+    <p>Answer the questions below, and we'll select a piece of art for you!</p>
+    <form id="artForm">
+        <label>Your mood: <input type="text" id="moodInput" placeholder="e.g., happy, thoughtful"></label><br>
+        <button type="submit">Find Art</button>
+    </form>
+    <div id="artResult">
+        <img id="selectedArt" src="" alt="Selected Art" style="display:none;">
+    </div>
+</body>
+</html>
