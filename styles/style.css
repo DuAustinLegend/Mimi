@@ -1,7 +1,7 @@
 /* styles/style.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe4c4;
+    background-color: #68d780;
     color: #2e4053;
     margin: 0;
     padding: 0;
@@ -30,13 +30,13 @@ nav a {
     padding: 10px 20px;
     text-decoration: none;
     color: #ffffff;
-    background-color: #a93226;
+    background-color: #eb0909;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #922b21;
+    background-color: #eb0909;
 }
 
 @keyframes fadeInSlideUp {

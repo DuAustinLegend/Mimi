@@ -2,27 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome, Mimi!</title>
+    <title>Mimi's Interactive Chatbot Assistant</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Optional styling for chat container */
+        .chat-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 400px;
+            height: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome, Mimi 🌺</h1>
-        <p>This site was made just for you! Explore the fun and interactive experiences below:</p>
+        <h1>Welcome, Mimi! Chat with Your Personal Assistant</h1>
+        <p>This site is designed just for you. Enjoy exploring the features and chatting with your assistant!</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="mood-predictor.html">Mood Predictor</a></li>
-            <li><a href="compliment-bot.html">Compliment Bot</a></li>
-            <li><a href="fortune-teller.html">Virtual Fortune Teller</a></li>
-            <li><a href="dream-analyzer.html">Dream Analyzer</a></li>
-            <li><a href="voice-assistant.html">Voice-Based Assistant</a></li>
-            <li><a href="ai-art-selector.html">AI Art Selector</a></li>
-            <li><a href="love-calculator.html">Love Calculator</a></li>
-            <li><a href="relationship-reflection.html">Relationship Reflection</a></li>
-            <li><a href="personal-horoscope.html">Personal Horoscope</a></li>
-        </ul>
-    </nav>
+
+    <!-- Botpress Chatbot Embed Code -->
+    <div class="chat-container">
+        <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+        <script src="https://files.bpcontent.cloud/2024/11/01/05/20241101052241-ETHP7N4S.js"></script>
+    </div>
 </body>
 </html>
+
